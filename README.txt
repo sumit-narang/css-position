@@ -4,8 +4,9 @@ span{
    top:40px; //doesnt do anything until we provide position
 }
 span{
-   position:______; //element don't move from its position but it leaves gap/space or becomes                       //z-index "static/relative->doesn't do anything; absolute/fixed->span                     // element is taken out of normal flow(compact) and positioned on top
-                    //(z-index +ve)"
+   position:______; //element don't move from its position but it leaves gap/space or becomes                      
+                   //z-index "static/relative->doesn't do anything; absolute/fixed->span                     
+                   // element is taken out of normal flow(compact) and positioned on (z-index +ve)"
 }
 
 -----------------------------------------------------------------------------------------------
@@ -42,5 +43,5 @@ absolute position
 2.the "element" flow on top of the other compact element at its own position i.e the "element" is ripped outside of the DOM and the rest of the materials flow as if the "element" was not there.
 3.Declaring directional properties(i.e. top,left,right,bottom) on absolute position "element" then it will be position relative to the nearest parent(only when parent has a property position:relative/absolute/fixed).If the parent has no property "position:relative/absolute/fixed" then it will be positioned  relative to DOM.
 4.If we declare both ("left" and "right") or ("top" and "bottom") then it will be stretched.
-If declare all directional properties like "top,bottom,left,right" then it will become a square/rectangle (i.e. stretched like a rectangle/square).
+  If declare all directional properties like "top,bottom,left,right" then it will become a square/rectangle (i.e. stretched like rectangle/square).
 
