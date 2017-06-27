@@ -22,7 +22,7 @@ eg:
 span{
   position:relative;  //the span is the standard line
   top: 40px;  //it comes 40px down from the normal
-  left:30px;  //it comes 30px left
+  left:30px;  //it goes 30px towards right
 }
 2.the natural flow  is left unaltered i.e. a gap/space is left.
 3.the element sit on top of things like z-index.  
